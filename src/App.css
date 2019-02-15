@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+#header {
+  background-color: black;
+}
+
+#banner {
+  margin: 20px auto;
+}
+
+#logos {
+  height: 64px;
+  width: 64px;
+}
+
+#text {
+  font-size: 18px;
+  margin: 30px 20px;
+}
+
