@@ -2,10 +2,6 @@
   text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
 #header {
   background-color: black;
 }
@@ -20,7 +16,5 @@
 }
 
 #text {
-  font-size: 18px;
   margin: 30px 20px;
 }
-
