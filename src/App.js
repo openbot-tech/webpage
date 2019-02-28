@@ -14,6 +14,7 @@ class App extends Component {
       <div className="jumbotron" id="header">
         <div className="container text-center">
           <img src={Openbotpic} id="banner" alt="OpenbotBanner"/>   
+          <div className="App-link" href="https://openbot.gitbook.io/project/">Documentation</div>
         </div>
       </div>
       <p id="text">Join us discussing & developing free, open-source trading algorithms.</p>
