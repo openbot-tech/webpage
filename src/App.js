@@ -9,21 +9,54 @@ import traderspic from './images/png/traders.png';
 import devspic from './images/png/developers.png';
 import tradingscreen from './images/png/tradingscreen.png';
 import { ButtonToolbar, Button } from 'react-bootstrap';
-
+import { Link, animateScroll as scroll } from 'react-scroll';
 import './App.css';
 
 class App extends Component {
+
+  scrollToTop = () => {
+      scroll.scrollToTop();
+    };
+
   render() {
     return (
     <div className="App">
       <div id="navbar">
-        <img src={Openbotpic} id="banner-img" alt="Openbot logo"/>
+        <img src={Openbotpic} id="banner-img" alt="Openbot logo" onClick={this.scrollToTop}/>
         <ul class="nav-links">
-          <li class="nav-item"><a href="https://openbot.gitbook.io/project/">Features</a></li>
-          <li class="nav-item"><a href="https://openbot.gitbook.io/project/">Strategies</a></li>
-          <li class="nav-item"><a href="https://openbot.gitbook.io/project/">Governance</a></li>
-          <li class="nav-item"><a href="https://openbot.gitbook.io/project/">Documentation</a></li>
-          <li class="nav-item"><a href="https://openbot.gitbook.io/project/">Install</a></li>
+          <li class="nav-item">
+            <Link
+              activeClass="active"
+              to="features"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >Features</Link>
+          </li>
+          <li class="nav-item">
+            <Link
+              activeClass="active"
+              to="strategies"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >Strategies</Link>
+          </li>
+          <li class="nav-item">
+            <Link
+              activeClass="active"
+              to="strategies"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >Governance</Link>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item-black" href="https://openbot.gitbook.io/project/">Install</a>
+          </li>
         </ul>
       </div>
 
@@ -31,7 +64,7 @@ class App extends Component {
         <div className="Header-lead">
           <h1>Crowd-sourced <br /> crypto trading bots</h1>
           <h3 className="Header-text">Submit strategies or implement new features, <br /> the first openbot virtual hackathon is live</h3>
-          <a className="Button-simple" href="https://openbot.gitbook.io/project/">Gitcoin Bounties</a>
+          <a className="Button-simple" href="https://github.com/openbot-tech/core/issues?utf8=%E2%9C%93&q=label%3A%22help+wanted%22">Gitcoin Bounties</a>
         </div>
         <div className="App-list">
           <a className="App-link" href="https://discord.gg/6d4v6YC">
@@ -41,7 +74,7 @@ class App extends Component {
       </div>
 
       <fieldset>
-      <legend>FEATURES</legend>
+      <legend id='features'>FEATURES</legend>
       <div className="Features Section">
         <div className="App-list">
           <a className="App-link" href="https://github.com/openbot-tech">
@@ -71,7 +104,7 @@ class App extends Component {
           </div>
         </div>
         <div className="App-list">
-          <a className="App-link" href="https://twitter.com/openbot_tech">
+          <a className="App-link" href="https://github.com/openbot-tech">
           <img src={testpic} id="logos" alt="twitter"/>
           </a>
           <div className="App-text">
@@ -83,15 +116,15 @@ class App extends Component {
       </fieldset>
 
       <fieldset>
-      <legend>CONTRIBUTE</legend>
+      <legend id='strategies'>STRATEGIES</legend>
         <div className="Contribute Section">
           <div className="Contribute-box">
             <h2>Traders</h2>
-            <a className="Contribute-img" href="https://discord.gg/6d4v6YC">
+            <a className="Contribute-img" href="https://github.com/openbot-tech/core/blob/master/src/core/strategy/strategies/TEMPLATE/index.js">
               <img src={traderspic} id="pics" alt="github"/>
             </a>
             <br />
-            <a className="Button-simple" href="https://discord.gg/6d4v6YC">Submit Strategy</a>
+            <a className="Button-simple" href="https://github.com/openbot-tech/core/blob/master/src/core/strategy/strategies/TEMPLATE/index.js">Submit Strategy</a>
           </div>
           <div className="Contribute-box">
             <h2>Developers</h2>
@@ -105,23 +138,20 @@ class App extends Component {
       </fieldset>
 
       <fieldset>
-      <legend>VISION</legend>
+      <legend id='governance'>GOVERNANCE</legend>
         <div className="Vision Section">
           <div>
             <h1>Towards a decentralized tradingbot community</h1>
             <p id="text">Join us discussing & developing free, open-source trading algorithms.</p>
-            <a className="Button-simple" href="https://openbot.gitbook.io/project/">Vision Paper</a>
+            <a className="Button-simple" href="https://docs.google.com/document/d/1Lwe9McxjwQhRvfU2domiRhuSC0pCJ3uLLh-xkARFePM/edit?usp=sharing">Vision Paper</a>
           </div>
         </div>
       </fieldset>
 
       <div id="footer">
         <ul class="nav-links">
-          <li class="nav-item"><a href="https://openbot.gitbook.io/project/">Features</a></li>
-          <li class="nav-item"><a href="https://openbot.gitbook.io/project/">Strategies</a></li>
-          <li class="nav-item"><a href="https://openbot.gitbook.io/project/">Governance</a></li>
-          <li class="nav-item"><a href="https://openbot.gitbook.io/project/">Documentation</a></li>
-          <li class="nav-item"><a href="https://openbot.gitbook.io/project/">Install</a></li>
+        <li class="nav-item"><a href="https://twitter.com/openbot_tech">Follow us</a></li>
+        <li class="nav-item"><a href="https://medium.com/@openbot">Read our blog</a></li>
         </ul>
       </div>
 
