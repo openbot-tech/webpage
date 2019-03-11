@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "72f53512214684ea3cd5",
-    "url": "/static/css/main.a71bd8d8.chunk.css"
+    "revision": "8944204d23ef9bc5951c",
+    "url": "/static/css/main.302a83a7.chunk.css"
   },
   {
-    "revision": "72f53512214684ea3cd5",
-    "url": "/static/js/main.72f53512.chunk.js"
+    "revision": "8944204d23ef9bc5951c",
+    "url": "/static/js/main.8944204d.chunk.js"
   },
   {
-    "revision": "7e2a7a76cc7a43fd09e2",
-    "url": "/static/js/1.7e2a7a76.chunk.js"
+    "revision": "c9f43329c9548f20f5bd",
+    "url": "/static/js/1.c9f43329.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -44,15 +44,19 @@ self.__precacheManifest = [
     "url": "/static/media/developers.04b00104.png"
   },
   {
-    "revision": "0c30ca1f127d8ab7e9339850f5bda461",
-    "url": "/static/media/tradingscreen.0c30ca1f.png"
+    "revision": "bf9d93225364c9a34e095f11036a5029",
+    "url": "/static/media/twitter-tile.bf9d9322.svg"
   },
   {
-    "revision": "28ca8de76f69df47bb2579c78188494a",
-    "url": "/static/media/twitter.28ca8de7.svg"
+    "revision": "7c5524427c4cddccdc6d08c97643ade5",
+    "url": "/static/media/medium-tile.7c552442.svg"
   },
   {
-    "revision": "02a24bd3225739321412be00ee74cb60",
+    "revision": "433c764cf45da547fa0503af6b6be798",
+    "url": "/static/media/discordapp-tile.433c764c.svg"
+  },
+  {
+    "revision": "d43d95ee52356f888cb1e66cd0f6f7bd",
     "url": "/index.html"
   }
 ];
