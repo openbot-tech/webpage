@@ -81,7 +81,7 @@ class App extends Component {
           <div className="Header-lead">
             <h1>Crowd-sourced <br /> crypto trading bots</h1>
             <h3 className="Header-text">Submit strategies or implement new features, <br /> the first openbot virtual hackathon is live</h3>
-            <a className="Button-simple" href="https://github.com/openbot-tech/core/issues?utf8=%E2%9C%93&q=label%3A%22help+wanted%22">Join Competition</a>
+            <a className="Button-simple" href="https://github.com/openbot-tech/core/issues/19">Join Competition</a>
           </div>
           <div className="video-container">
             <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Dg46tX_ms7Y?autohide=1&autoplay=1&controls=0&modestbranding=1&showinfo=0&loop=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -93,7 +93,7 @@ class App extends Component {
           <div className="Header-lead-mobile">
             <h1>Crowd-sourced <br /> crypto trading bots</h1>
             <h3 className="Header-text">Submit strategies or implement new features, <br /> the first openbot virtual hackathon is live</h3>
-            <a className="Button-simple" href="https://github.com/openbot-tech/core/issues?utf8=%E2%9C%93&q=label%3A%22help+wanted%22">Join Competition</a>
+            <a className="Button-simple" href="https://github.com/openbot-tech/core/issues/19">Join Competition</a>
           </div>
           <div className="video-container-mobile">
             <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Dg46tX_ms7Y?autohide=1&autoplay=1&controls=0&modestbranding=1&showinfo=0&loop=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
