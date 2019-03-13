@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "8944204d23ef9bc5951c",
+    "revision": "88ef25dec64603279149",
     "url": "/static/css/main.302a83a7.chunk.css"
   },
   {
-    "revision": "8944204d23ef9bc5951c",
-    "url": "/static/js/main.8944204d.chunk.js"
+    "revision": "88ef25dec64603279149",
+    "url": "/static/js/main.88ef25de.chunk.js"
   },
   {
     "revision": "c9f43329c9548f20f5bd",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/static/media/discordapp-tile.433c764c.svg"
   },
   {
-    "revision": "d43d95ee52356f888cb1e66cd0f6f7bd",
+    "revision": "054efe090f52fb8cd711c1cbb827a555",
     "url": "/index.html"
   }
 ];

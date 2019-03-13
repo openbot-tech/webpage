@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.302a83a7.chunk.css",
-  "main.js": "/static/js/main.8944204d.chunk.js",
-  "main.js.map": "/static/js/main.8944204d.chunk.js.map",
+  "main.js": "/static/js/main.88ef25de.chunk.js",
+  "main.js.map": "/static/js/main.88ef25de.chunk.js.map",
   "static/js/1.c9f43329.chunk.js": "/static/js/1.c9f43329.chunk.js",
   "static/js/1.c9f43329.chunk.js.map": "/static/js/1.c9f43329.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
@@ -18,6 +18,6 @@
   "static/media/discordapp-tile.svg": "/static/media/discordapp-tile.433c764c.svg",
   "static/css/main.302a83a7.chunk.css.map": "/static/css/main.302a83a7.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.339251415f85a7036aa700e73075ce03.js": "/precache-manifest.339251415f85a7036aa700e73075ce03.js",
+  "precache-manifest.9ba38ff0da1572dd79794c4098165e1f.js": "/precache-manifest.9ba38ff0da1572dd79794c4098165e1f.js",
   "service-worker.js": "/service-worker.js"
 }
