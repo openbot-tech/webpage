@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Openbotpic from './images/svg/Openbot_black.svg';
+import openbotlogo from './images/svg/logo_short_black.svg';
 import discordpic from './images/svg/discord.svg';
 import githubpic from './images/svg/github.svg';
 import stackpic from './images/svg/stack.svg';
@@ -26,7 +26,9 @@ class App extends Component {
 
       <MediaQuery minDeviceWidth={941}>
         <div id="navbar">
-          <img src={Openbotpic} id="banner-img" alt="Openbot logo" onClick={this.scrollToTop}/>
+          <a href="./">
+            <img src={openbotlogo} id="banner-img" alt="Openbot logo" onClick={this.scrollToTop}/>
+          </a>
           <ul class="nav-links">
             <li class="nav-item">
               <Link
@@ -66,7 +68,9 @@ class App extends Component {
       </MediaQuery>
       <MediaQuery maxWidth={940}>
         <div id="navbar">
-          <img src={Openbotpic} id="banner-img" alt="Openbot logo" onClick={this.scrollToTop}/>
+          <a href="./">
+          <img src={openbotlogo} id="banner-img" alt="Openbot logo" onClick={this.scrollToTop}/>
+          </a>
           <ul class="nav-links">
             <li class="nav-item">
               <a class="nav-item-black" href="https://openbot.gitbook.io/project/">Install</a>
@@ -83,9 +87,9 @@ class App extends Component {
             <h3 className="Header-text">Submit strategies or implement new features, <br /> the first openbot virtual hackathon is live</h3>
             <a className="Button-simple" href="https://github.com/openbot-tech/core/issues/19">Join Competition</a>
           </div>
-          <div className="video-container">
-            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Dg46tX_ms7Y?autohide=1&autoplay=1&controls=0&modestbranding=1&showinfo=0&loop=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
+          <video className="Header-video" loop autoPlay muted>
+               <source src={require('./images/openbot.mp4')} type="video/mp4" />
+          </video>
         </div>
       </MediaQuery>
       <MediaQuery maxWidth={940}>
@@ -95,9 +99,9 @@ class App extends Component {
             <h3 className="Header-text">Submit strategies or implement new features, <br /> the first openbot virtual hackathon is live</h3>
             <a className="Button-simple" href="https://github.com/openbot-tech/core/issues/19">Join Competition</a>
           </div>
-          <div className="video-container-mobile">
-            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Dg46tX_ms7Y?autohide=1&autoplay=1&controls=0&modestbranding=1&showinfo=0&loop=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
+          <video className="Header-video-mobile" loop autoPlay muted>
+               <source src={require('./images/openbot.mp4')} type="video/mp4" />
+          </video>
         </div>
       </MediaQuery>
 

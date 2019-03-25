@@ -20,7 +20,7 @@ legend {
 }
 
 #navbar {
-  background-color: #f7f7f7;
+  background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -28,7 +28,7 @@ legend {
 }
 
 #banner-img {
-  margin-left: 10px;
+  margin-left: 20px;
   max-height: 30px;
 }
 
@@ -185,6 +185,7 @@ legend {
   flex-direction: column;
   justify-content: center;
   align-content: center;
+  text-align: center;
 }
 
 .Contribute-box {
@@ -222,24 +223,14 @@ a.Button-simple:hover {
   color: darkgrey;
 }
 
-.video-container {
+.Header-video {
   padding: 2rem;
   margin-left: 6%;
+  max-width: 600px;
 }
 
-.video-container-mobile {
-position: relative;
-padding-bottom: 56.25%;
-padding-top: 30px; height: 0; overflow: hidden;
-margin-top: 2rem;
-}
-
-.video-container-mobile iframe,
-.video-container-mobile object,
-.video-container-mobile embed {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
+.Header-video-mobile {
+  padding: 2rem;
+  margin-left: 6%;
+  max-width: 80%;
 }
